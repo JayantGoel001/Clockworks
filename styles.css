@@ -59,3 +59,37 @@ h2{
     padding-left: 100px;
     vertical-align: top;
 }
+@media(max-width: 1300px) {
+    body{
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    button{
+        width: 100%;
+        margin-bottom: 1px;
+    }
+    h2{
+        display: inline;
+        font-size: 100px;
+        padding-left: 30px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px) {
+    #control{
+        width: 100%;
+    }
+    button{
+        width: 50%;
+    }
+    h2{
+        display: inline;
+        font-size: 100px;
+        padding-left: 30px;
+    }
+}

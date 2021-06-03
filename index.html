@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clockworks</title>
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Clockworks</h1>
+    <section id="control">
+        <div class="input-group">
+            <label for="minutes-input">Minutes</label>
+            <input type="number" placeholder="0" min="0" max="300" id="minutes-input">
+        </div>
+        <div class="input-group">
+            <label for="seconds-input">Seconds</label>
+            <input type="number" placeholder="0" min="0" max="59" step="5" id="seconds-input">
+        </div>
+        <button type="button" id="start-button" onclick="">Start</button>
+        <button type="button" id="stop-button" disabled>Stop</button>
+        <button type="button" id="pause-button" disabled>Pause</button>
+    </section>
+    <h2><span id="minutes">0</span>: <span id="seconds">00</span></h2>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

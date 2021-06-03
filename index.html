@@ -19,9 +19,9 @@
             <label for="seconds-input">Seconds</label>
             <input type="number" placeholder="0" min="0" max="59" step="5" id="seconds-input">
         </div>
-        <button type="button" id="start-button" onclick="">Start</button>
-        <button type="button" id="stop-button" disabled>Stop</button>
-        <button type="button" id="pause-button" disabled>Pause</button>
+        <button type="button" id="start-button" onclick="startTimer();">Start</button>
+        <button type="button" id="stop-button" disabled onclick="stopTimer();">Stop</button>
+        <button type="button" id="pause-button" disabled onclick="pauseTimer();">Pause</button>
     </section>
     <h2><span id="minutes">0</span>: <span id="seconds">00</span></h2>
     
